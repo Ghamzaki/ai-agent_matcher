@@ -1,0 +1,12 @@
+[
+    {
+        "subject": "Transaction Alert: Amazon",
+        "sender": "alerts@bank.com",
+        "body": "You have a new transaction of $50.00 at Amazon on your card ending in 1234."
+    },
+    {
+        "subject": "Your Starbucks Purchase",
+        "sender": "receipts@bank.com",
+        "body": "A payment of $5.00 was made to Starbucks from your account ****5678."
+    }
+]

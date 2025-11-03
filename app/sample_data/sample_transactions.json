@@ -1,0 +1,18 @@
+[
+    {
+        "id": "tx-1",
+        "timestamp": "2025-11-03T10:00:00Z",
+        "account_masked": "****1234",
+        "merchant": "Amazon",
+        "amount": 50.00,
+        "currency": "USD"
+    },
+    {
+        "id": "tx-2",
+        "timestamp": "2025-11-03T11:00:00Z",
+        "account_masked": "****5678",
+        "merchant": "Starbucks",
+        "amount": 5.00,
+        "currency": "USD"
+    }
+]

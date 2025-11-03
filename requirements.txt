@@ -1,0 +1,13 @@
+pydantic
+sqlmodel
+fastapi
+uvicorn
+aioimaplib
+httpx
+rapidfuzz
+python-dotenv
+pytest
+python-multipart
+SQLAlchemy
+starlette
+watchfiles
