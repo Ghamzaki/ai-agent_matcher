@@ -1,4 +1,5 @@
 pydantic
+pydantic-settings
 sqlmodel
 fastapi
 uvicorn
