@@ -1,7 +1,7 @@
 import asyncio, email, time, os
 from aioimaplib import aioimaplib
 from .config import settings
-from .main import ingest_email_payload  # function we expose to handle an incoming parsed email
+from .main import ingest_email_payload  # function expose to handle an incoming parsed email
 from email.header import decode_header
 from .email_parser import parse_email
 

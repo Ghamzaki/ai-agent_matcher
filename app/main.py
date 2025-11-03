@@ -17,7 +17,7 @@ import asyncio
 from .email_reader_mailtrap import fetch_mailtrap_messages
 
 
-# --- CONFIGURATION AND MOCK DATA SETUP ---
+# --- CONFIGURATION AND DATA SETUP ---
 
 # Use a global dictionary to simulate the in-memory ledger database
 TRANSACTION_LEDGER: Dict[str, Dict[str, Any]] = {}
