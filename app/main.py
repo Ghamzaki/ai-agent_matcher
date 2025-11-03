@@ -185,6 +185,7 @@ def get_agent_manifest():
             {
                 "id": "verify_transaction_alert",
                 "name": "Verify Bank Alert",
+                "short_description": "Verifies bank alerts against transactions.",
                 "description": "Takes a bank alert email (string) and returns the matched transaction details from the ledger.",
                 "tags": ["finance", "verification", "security"],
                 "input_schema": {"type": "string", "name": "email_content"},
