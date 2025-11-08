@@ -94,7 +94,7 @@ def parse_email_alert(email_text: str) -> Dict[str, Any]:
     alert_data = {"amount": None, "description": None, "date": None}
 
     # 1. Amount Parsing: Looks for dollar sign or currency followed by a number
-    amount_match = re.search(r'[\$£€]\s*(\d+\.\d{2})|(\d+\.\d{2})\s*(USD|EUR|GBP)', email_text, re.IGNORECASE)
+    amount_match = re.search(r'(?:[Nn]?₦|\bNGN\b|\$|\bUSD\b|\bEUR\b|\bGBP\b)?\s*(\d{1,3}(?:[,\s]\d{3})*(?:\.\d{2})?)', email_text, re.IGNORECASE)
     if amount_match:
         # Prioritize the first capture group that holds the number
         num_str = amount_match.group(1) or amount_match.group(2)
